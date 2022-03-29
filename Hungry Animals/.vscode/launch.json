@@ -1,0 +1,101 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+  
+    // {
+    //   "type": "android",
+    //   "request": "launch",
+    //   "name": "Android Launch",
+    //   "appSrcRoot": "${workspaceRoot}/app/src/main",
+    //   "apkFile": "${workspaceRoot}/app/build/outputs/apk/debug/app-debug.apk",
+    //   "adbPort": 5037
+    // },
+    // {
+    //   "type": "android",
+    //   "request": "attach",
+    //   "name": "Android Attach",
+    //   "appSrcRoot": "${workspaceRoot}/app/src/main",
+    //   "adbPort": 5037,
+    //   "processId": "${command:PickAndroidProcess}"
+    // },
+    // {
+    //   "name": "Remote GDB",
+    //   "type": "cppdbg",
+    //   "request": "launch",
+    //   "preLaunchTask": "Forward debug port",
+    //   "cwd": "${workspaceRoot}",
+    //   "program": "${workspaceRoot}/app/Intermediate/android/myapp/local/armeabi-v7a/myapp",
+    //   "additionalSOLibSearchPath": "${workspaceRoot}/app/Intermediate/android/mylib/local/armeabi-v7a",
+    //   "miDebuggerServerAddress": "localhost:5039",
+    //   "setupCommands": [
+    //       {
+    //           "text": "set solib-absolute-prefix ${workspaceRoot}/app/path/android",
+    //           "ignoreFailures": false
+    //       }
+    //   ],
+    //   "windows": {
+    //       "miDebuggerPath": "D:/Program Files/Unity 2020.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/prebuilt/windows-x86_64/bin/gdb.exe",
+    //       "MIMode": "gdb"
+    //   }
+    // },
+
+    {
+      "type": "android",
+      "request": "launch",
+      "name": "Android Launch",
+      "appSrcRoot": "${workspaceRoot}/app/src/main",
+      "apkFile": "${workspaceRoot}/app/build/outputs/apk/debug/app-debug.apk",
+      "adbPort": 5037
+    },
+
+    {
+      "name": "Unity Editor",
+      "type": "unity",
+      "path": "/D:/Projects/2022/Unity/Junior Programmer Create with Code 1/Hungry Animals v0.11/Library/EditorInstance.json",
+      "request": "launch"
+    },
+    {
+      "name": "Windows Player",
+      "type": "unity",
+      "request": "launch"
+    },
+    {
+      "name": "OSX Player",
+      "type": "unity",
+      "request": "launch"
+    },
+    {
+      "name": "Linux Player",
+      "type": "unity",
+      "request": "launch"
+    },
+    {
+      "name": "iOS Player",
+      "type": "unity",
+      "request": "launch"
+    },
+    {
+      "name": "Android Player",
+      "type": "unity",
+      "request": "launch"
+    },
+    {
+      "name": "Xbox One Player",
+      "type": "unity",
+      "request": "launch"
+    },
+    {
+      "name": "PS4 Player",
+      "type": "unity",
+      "request": "launch"
+    },
+    {
+      "name": "SwitchPlayer",
+      "type": "unity",
+      "request": "launch"
+    }
+  ]
+}
