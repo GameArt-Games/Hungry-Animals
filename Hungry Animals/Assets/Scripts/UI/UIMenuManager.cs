@@ -58,8 +58,6 @@ public class UIMenuManager : MonoBehaviour
 
     public void SetSettings()
     {
-        print("shdjdS");
-
         _musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1);
         _sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume", 1);
         _fullScreenToggle.isOn = GetFullScreen();
